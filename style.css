@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    background-color: #dfdada;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: #d3c5c5;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    margin: 0 1rem;
+}
+
+.roundPic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.social {
+    height: 4rem;
+    width: 4rem;
+}
+
+.container {
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.brand {
+    color: #1e3050;
+    margin: 0 1rem;
+}
+
+.brand.fa-github:hover {
+    color: #000;
+}
+
+.brand.fa-linkedin:hover{
+    color: #020296;
+}
+
+.nav-link:hover {
+    color: #c93609bd;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
